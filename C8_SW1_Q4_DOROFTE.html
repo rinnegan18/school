@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>KRISTINE'S FAVORITE SONGS</title>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   
+    <style>
+
+
+
+:root {
+    --clr-primary-200: #f3eed9;
+    --clr-primary-100: #2565AE;
+    --clr-primary-300: #8cc152;
+    --clr-primary-500: #48cfad;
+  
+    --clr-neutral-100: #fff;
+    --clr-neutral-900: #222c2a;
+
+    
+  
+    --ff-primary: "Roboto", sans-serif;
+    --ff-accent: "Playfair Display", serif;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+  }
+  
+  body,
+  h2,
+  p {
+    margin: 0;
+  }
+  
+  h2 {
+    color: var(--clr-primary-200);
+    font-family: var(--ff-accent);
+    font-weight: 900;
+    line-height: 1;
+  }
+  
+  h2,
+  p {
+    margin-bottom: 1em;
+  }
+  
+  header,
+  section {
+    padding: 4rem 0;
+    @media (min-width: 40em) {
+      header,
+      section {
+        padding: 7rem 0;
+      }
+    }
+  }
+  
+  .container {
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+  }
+  
+  .split {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (min-width: 40em) {
+    .split {
+      flex-direction: row;
+    }
+  
+    .split > * {
+      flex-basis: 100%;
+    }
+  
+    .split > * + * {
+      margin-left: 2em;
+    }
+  }
+  
+  .container--narrow {
+    max-width: 45rem;
+  }
+
+
+  .bg-header {
+    background-color: var(--clr-neutral-900);
+  }
+
+  .bg-iu{
+    background-color: var(--clr-primary-300);
+    
+  }
+  .bg-rose{
+    background-color: var(--clr-primary-100);
+    
+  }
+  .bg-henry{
+    background-color: var(--clr-primary-500);
+    
+  }
+  .bg-iu{
+
+background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c7b66af-f9d8-4ba2-b476-85040598dfa3/ddk0o2u-c580f79d-c9b2-4b9c-90c3-dd9f2ebb89f4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMGM3YjY2YWYtZjlkOC00YmEyLWI0NzYtODUwNDA1OThkZmEzXC9kZGswbzJ1LWM1ODBmNzlkLWM5YjItNGI5Yy05MGMzLWRkOWYyZWJiODlmNC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.ZF6-9tUAVipMnEZMpEk9zX7jv_cH_4NFPq3UAMDH_DY);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+.bg-rose{
+
+background-image: url(https://www.nme.com/wp-content/uploads/2021/03/rose-blackpink-yg-entertainment@2000x1270.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+.bg-henry{
+
+background-image: url(https://pm1.narvii.com/6702/377671ba2ec45ecb42c973cb775b6a87c8a15f5f_hq.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+
+  
+    </style>
+</head>
+<body>
+
+    <section class="bg-header text-center">
+        <div class="container container--narrow">
+          
+          <h2>C8 Seatwork 1 - Quarter 4 (HTML Media)</h2>
+          
+        </div>
+    </section>
+    
+
+      <section class = "bg-iu">
+        <div class="container">
+          <div class="split">
+           <div>
+               <h2>Eight ft. Suga (BTS - IU)</h2>
+             </div>
+   
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/TgOu00Mf3kI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class = "bg-rose">
+        <div class="container">
+          <div class="split">
+           <div>
+               <h2>On the ground - Rose</h2>
+             </div>
+   
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CKZvWhCqx1s?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+     
+      <section class = "bg-henry">
+        <div class="container">
+          <div class="split">
+           <div>
+               <h2>It's you - Henry</h2>
+             </div>
+   
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/yGHFCWRKoc0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay ; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             </div>
+        </div>
+      </section>
+
+
+</body>
+</html>
